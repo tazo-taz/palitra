@@ -26,12 +26,14 @@
   border-radius: 5px;
   transition: 0.3s;
   cursor: pointer;
-}
-.primary-button:hover {
-  background-color: var(--darker-primary);
-}
-.primary-button:active {
-  transform: scale(0.9);
+
+  &:hover {
+    background-color: var(--darker-primary);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
 }
 
 .primary-button.active {
@@ -63,4 +65,4 @@
 .black-bold {
   color: black;
   font-weight: bold;
-}/*# sourceMappingURL=index.css.map */
+}

@@ -1,0 +1,14 @@
+.card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1882352941);
+  padding: 10px 20px;
+}
+.card h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.card p {
+  font-size: 14px;
+  color: #727272;
+  text-transform: capitalize;
+}/*# sourceMappingURL=style.css.map */
